@@ -52,10 +52,10 @@ def InputBox(question):
     global InputBox_Result #Ding Dong My Research Was Wrong
     return InputBox_Result #WHYYYY WHY DOES THIS WORK THIS IS STUPID
 
-def askname():
-    global Running_askname
+def askname(): #you can the change the name of this but you MUST change the name of the 'command' on line 75
+    global Running_askname #if you change the name of this you MUST make sure to change it's name on line 8, line 57 and line 58
     if Running_askname == False:
-        Running_askname = True
+        Running_askname = True #after this line you can add what code you want
         name = InputBox("What is your name?")
         age = InputBox("How old are you?")
         
